@@ -4,9 +4,11 @@ function App() {
 
   return (
     <>
-      <p className="text-red-950 font-mono">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div className='h-screen w-full bg-rosa relative'>
+        <div className='h-[20px] w-full bg-white absolute top-0 right-0'></div>
+        <div className='h-[20px] w-full bg-white absolute bottom-0 left-0'></div>
+        
+      </div>
     </>
   )
 }
