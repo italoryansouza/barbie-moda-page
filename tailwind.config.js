@@ -6,6 +6,7 @@ export default {
       colors: {
         'rosa':'#FF81D0',
         'roxo':'#1A0016',
+        'rosa-claro': '#FADDF2',
       }
     },
   },

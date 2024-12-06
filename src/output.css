@@ -556,6 +556,65 @@ video {
   display: none;
 }
 
+.link-buttons{
+  margin-bottom: 1.5rem;
+  display: flex;
+  width: 350px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 221 242 / var(--tw-bg-opacity, 1));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(26 0 22 / var(--tw-text-opacity, 1));
+  --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  transition-duration: 200ms;
+}
+
+.link-buttons:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 207 232 / var(--tw-bg-opacity, 1));
+}
+
+.link-buttons:active{
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 234 254 / var(--tw-bg-opacity, 1));
+}
+
+.link-buttons02{
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 221 242 / var(--tw-bg-opacity, 1));
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(26 0 22 / var(--tw-text-opacity, 1));
+  --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  transition-duration: 200ms;
+}
+
+.link-buttons02:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 207 232 / var(--tw-bg-opacity, 1));
+}
+
+.link-buttons02:active{
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 234 254 / var(--tw-bg-opacity, 1));
+}
+
 .absolute{
   position: absolute;
 }
@@ -568,12 +627,12 @@ video {
   bottom: 0px;
 }
 
-.left-8{
-  left: 2rem;
+.left-2{
+  left: 0.5rem;
 }
 
-.top-4{
-  top: 1rem;
+.top-\[10px\]{
+  top: 10px;
 }
 
 .z-0{
@@ -584,9 +643,22 @@ video {
   z-index: 10;
 }
 
+.z-20{
+  z-index: 20;
+}
+
 .my-10{
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
+}
+
+.my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
 }
 
 .mt-10{
@@ -597,16 +669,36 @@ video {
   display: flex;
 }
 
-.h-\[200px\]{
-  height: 200px;
+.grid{
+  display: grid;
+}
+
+.h-\[100px\]{
+  height: 100px;
 }
 
 .h-\[24px\]{
   height: 24px;
 }
 
+.h-\[300px\]{
+  height: 300px;
+}
+
+.h-full{
+  height: 100%;
+}
+
 .h-screen{
   height: 100vh;
+}
+
+.w-1\/2{
+  width: 50%;
+}
+
+.w-3\/5{
+  width: 60%;
 }
 
 .w-36{
@@ -617,8 +709,16 @@ video {
   width: 10rem;
 }
 
+.w-\[1px\]{
+  width: 1px;
+}
+
 .w-\[200px\]{
   width: 200px;
+}
+
+.w-\[220px\]{
+  width: 220px;
 }
 
 .w-\[420px\]{
@@ -629,12 +729,8 @@ video {
   width: 100%;
 }
 
-.w-\[400px\]{
-  width: 400px;
-}
-
-.w-\[350px\]{
-  width: 350px;
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -649,12 +745,37 @@ video {
   justify-content: center;
 }
 
+.gap-1{
+  gap: 0.25rem;
+}
+
+.gap-3{
+  gap: 0.75rem;
+}
+
 .gap-7{
   gap: 1.75rem;
 }
 
+.gap-\[4px\]{
+  gap: 4px;
+}
+
 .rounded-full{
   border-radius: 9999px;
+}
+
+.border{
+  border-width: 1px;
+}
+
+.border-solid{
+  border-style: solid;
+}
+
+.border-rosa-claro{
+  --tw-border-opacity: 1;
+  border-color: rgb(250 221 242 / var(--tw-border-opacity, 1));
 }
 
 .bg-rosa{
@@ -662,13 +783,54 @@ video {
   background-color: rgb(255 129 208 / var(--tw-bg-opacity, 1));
 }
 
+.bg-rosa-claro{
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 221 242 / var(--tw-bg-opacity, 1));
+}
+
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pl-8{
+  padding-left: 2rem;
+}
+
+.pr-2{
+  padding-right: 0.5rem;
+}
+
 .text-center{
   text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-\[14px\]{
+  font-size: 14px;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-semibold{
@@ -678,6 +840,10 @@ video {
 .text-roxo{
   --tw-text-opacity: 1;
   color: rgb(26 0 22 / var(--tw-text-opacity, 1));
+}
+
+.underline{
+  text-decoration-line: underline;
 }
 
 .blur-\[80px\]{
