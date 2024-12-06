@@ -1,4 +1,6 @@
-*, ::before, ::after {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -52,7 +54,7 @@
   --tw-contain-style:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -554,48 +556,135 @@ video {
   display: none;
 }
 
-.absolute {
+.absolute{
   position: absolute;
 }
 
-.relative {
+.relative{
   position: relative;
 }
 
-.bottom-0 {
+.bottom-0{
   bottom: 0px;
 }
 
-.left-0 {
-  left: 0px;
+.left-8{
+  left: 2rem;
 }
 
-.right-0 {
-  right: 0px;
+.top-4{
+  top: 1rem;
 }
 
-.top-0 {
-  top: 0px;
+.z-0{
+  z-index: 0;
 }
 
-.h-\[20px\] {
-  height: 20px;
+.z-10{
+  z-index: 10;
 }
 
-.h-screen {
+.my-10{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.h-\[200px\]{
+  height: 200px;
+}
+
+.h-\[24px\]{
+  height: 24px;
+}
+
+.h-screen{
   height: 100vh;
 }
 
-.w-full {
+.w-36{
+  width: 9rem;
+}
+
+.w-40{
+  width: 10rem;
+}
+
+.w-\[200px\]{
+  width: 200px;
+}
+
+.w-\[420px\]{
+  width: 420px;
+}
+
+.w-full{
   width: 100%;
 }
 
-.bg-rosa {
+.w-\[400px\]{
+  width: 400px;
+}
+
+.w-\[350px\]{
+  width: 350px;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.gap-7{
+  gap: 1.75rem;
+}
+
+.rounded-full{
+  border-radius: 9999px;
+}
+
+.bg-rosa{
   --tw-bg-opacity: 1;
   background-color: rgb(255 129 208 / var(--tw-bg-opacity, 1));
 }
 
-.bg-white {
+.bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.text-center{
+  text-align: center;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
+.text-roxo{
+  --tw-text-opacity: 1;
+  color: rgb(26 0 22 / var(--tw-text-opacity, 1));
+}
+
+.blur-\[80px\]{
+  --tw-blur: blur(80px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
 }
