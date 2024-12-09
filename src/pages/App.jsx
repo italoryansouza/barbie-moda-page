@@ -13,9 +13,9 @@ function App() {
 
   return (
     <>
-      <div className='h-screen w-full bg-rosa relative'>
+      <div className='w-full bg-rosa relative'>
         <div className='h-[24px] w-full bg-white'></div>
-        <div className='h-[24px] w-full bg-white absolute bottom-0'></div>
+        <div className='h-[24px] w-full bg-white absolute bottom-0 z-40'></div>
         <div className='flex justify-center'>
           <div className='w-[420px] mt-10 flex flex-col items-center relative'>
             <div className='rounded-full bg-white h-[100px] w-[200px] blur-[80px] absolute  top-[10px] left-2 z-0'></div>
@@ -59,7 +59,7 @@ function App() {
               </div>
             </div>
             <p className='text-center text-xl font-semibold text-roxo my-5 z-20'>NOS ENCONTRE NO MAPA:</p>
-            <div className='w-full flex justify-center gap-1'>
+            <div className='w-full flex justify-center gap-1 mb-4'>
               <a className='link-buttons02 w-1/2' href="#">
                 <FontAwesomeIcon icon={faLocationDot} className='text-lg'/>
                 Ponte dos Carvalhos
