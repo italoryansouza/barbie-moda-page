@@ -34,7 +34,7 @@ function App() {
               Loja Ponte dos Carvalhos
               <FontAwesomeIcon icon={faWhatsapp} className='text-2xl'/>
             </a>            
-            <div className='w-full h-[300px] border-solid border border-rosa-claro pl-8 pr-2 py-4 flex items-center justify-center gap-3 text-roxo'>       
+            <div className='w-full h-[300px] border-solid border border-rosa-claro pl-8 pr-2 py-4 flex items-center justify-center gap-3 text-roxo max-[430px]:h-[270px] max-[430px]:w-5/6'>       
               <div className='text-right'>
                 <p className='font-semibold text-xl underline mb-2'>TEMOS:</p>
                 <p className='text-[14px]'>
@@ -59,12 +59,12 @@ function App() {
               </div>
             </div>
             <p className='text-center text-xl font-semibold text-roxo my-5 z-20'>NOS ENCONTRE NO MAPA:</p>
-            <div className='w-full flex justify-center gap-1 mb-4'>
-              <a className='link-buttons02 w-1/2' href="#">
+            <div className='w-full flex justify-center gap-1 mb-4 max-[430px]:flex-col max-[430px]:items-center'>
+              <a className='link-buttons02 w-1/2 max-[430px]:w-5/6 max-[430px]:justify-center max-[430px]:gap-2' href="#">
                 <FontAwesomeIcon icon={faLocationDot} className='text-lg'/>
                 Ponte dos Carvalhos
               </a>           
-              <a className='link-buttons02 w-3/5' href="#">
+              <a className='link-buttons02 w-3/5 max-[430px]:w-5/6 max-[430px]:justify-center max-[430px]:gap-2' href="#">
                 <FontAwesomeIcon icon={faLocationDot} className='text-lg'/>
                 Cabo de Santo Agostinho
               </a>
